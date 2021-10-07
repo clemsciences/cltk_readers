@@ -1,4 +1,4 @@
-"""Corpus readers to support Greek text collections for use with CLTK; see readers.py for more information
+"""Corpus cltk_readers to support Greek text collections for use with CLTK; see cltk_readers.py for more information
 """
 
 __author__ = ["Patrick J. Burns <patrick@diyclassics.org>",]
@@ -6,7 +6,7 @@ __license__ = "MIT License."
 
 from typing import Callable
 
-from readers import TesseraeCorpusReader
+from cltk_readers import TesseraeCorpusReader
 
 from cltk.sentence.grc import GreekRegexSentenceTokenizer
 from cltk.tokenizers.word import PunktWordTokenizer as GreekWordTokenizer

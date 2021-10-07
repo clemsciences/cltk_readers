@@ -1,4 +1,4 @@
-"""Corpus readers to support text collections for use with CLTK;
+"""Corpus cltk_readers to support text collections for use with CLTK;
     Code following work in Bengfort, B., Bilbro, R., and Ojeda, T. 2018. Applied Text Analysis with Python:
     Enabling Language-Aware Data Products with Machine Learning. Sebastopol, CA: O’Reilly.
 """
@@ -42,7 +42,7 @@ class TesseraeCorpusReader(PlaintextCorpusReader):
         :param kwargs: Miscellaneous keyword arguments
         """
 
-        # Tesserae readers at present are limited to support for Greek and Latin; check on instantiation
+        # Tesserae cltk_readers at present are limited to support for Greek and Latin; check on instantiation
         lang = lang.lower()
 
         if lang is None:

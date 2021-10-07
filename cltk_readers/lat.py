@@ -1,4 +1,4 @@
-"""Corpus readers to support Latin text collections for use with CLTK; see readers.py for more information
+"""Corpus cltk_readers to support Latin text collections for use with CLTK; see cltk_readers.py for more information
 """
 
 __author__ = ["Patrick J. Burns <patrick@diyclassics.org>",]
@@ -6,7 +6,7 @@ __license__ = "MIT License."
 
 from typing import Callable
 
-from readers import TesseraeCorpusReader
+from cltk_readers import TesseraeCorpusReader
 
 from cltk.sentence.lat import LatinPunktSentenceTokenizer
 from cltk.tokenizers.lat.lat import LatinWordTokenizer
